@@ -1,6 +1,27 @@
-*.class
-
-# Package Files #
+*.class			# gecompileerde stuff
 *.jar
 *.war
 *.ear
+
+*~			# tijdelijke vim bestanden
+
+nbproject/private	# bevat netbeans private props met relatieve paths
+		    	# onmogelijk weg te werken
+
+dist/*.jar		# exclude build jars
+build                   # exclude binaries that are compiled
+build/
+dist
+dist/
+nbproject/private/
+=======
+
+build/*
+/dist/*
+
+/nbproject/*~
+
+
+src/server/dao/MySQLDatabase.java
+
+

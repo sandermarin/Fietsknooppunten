@@ -1,4 +1,1 @@
-Fietsknooppunten
-================
-
-2NMCT Programmeren IV voorbeeldexamen.
+# Fietsknooppunt README
